@@ -1,0 +1,13 @@
+.layout {
+  main {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .layout {
+    main {
+      padding-top: 5rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 100%;
+  height: 5rem;
+  padding: 1rem 15rem;
+  background-color: var(--cont-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  animation: slideDown .3s ease-in-out;
+ 
+  @keyframes slideDown {
+    from { transform: translatey(-5rem);}
+    to { transform: translatey(0);}
+  }
+
+  input[name='search'] {
+    width: 100%;
+    height: fit-content;
+  }
+}

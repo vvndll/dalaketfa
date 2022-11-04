@@ -1,0 +1,78 @@
+:root {
+  --logo-fnt: 'Roundo', sans-serif;
+  --main-fnt: 'Satoshi', sans-serif;
+
+  --product-clr: rgb(238, 236, 226);
+  --cont-clr: rgb(183, 255, 195);
+  --accent-clr: rgb(248, 179, 147);
+  --bg-clr: rgb(245, 245, 255);
+  --light-clr: rgb(90, 90, 90);
+}
+
+html,
+body {
+  font-family: var(--main-fnt);
+
+  color: var(--fnt-clr);
+  background-color: var(--bg-clr);
+}
+
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {list-style: none;}
+
+button, input[type='button'], input[type='submit'] {
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background: none;
+  display: block;
+  width: 100%;
+  font: inherit;
+  outline: none;
+  color: inherit;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  color: inherit;
+  font: inherit;
+}
+
+input::placeholder {
+  font: inherit;
+  color: inherit;
+}
+
+span {
+  display: inline;
+}
+
+img, 
+picture {
+  max-width: 100%;
+  display: block;
+}

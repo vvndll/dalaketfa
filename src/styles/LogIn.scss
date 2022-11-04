@@ -1,0 +1,51 @@
+.login {
+  width: 100%;
+  padding: 2rem 45rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-block: 2em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    input[type='email'], input[type='password'] {
+      width: 100%;
+      padding: .8rem .5rem;
+      border: 1px solid black;
+      margin-block: .5em;
+    }
+
+    input[type='submit'] {
+      width: 100%;
+      background-color: black;
+      color: var(--bg-clr);
+      font-size: 1rem;
+      text-align: center;
+      padding: .9rem .5rem;
+      margin-block: 1em;
+    }
+
+    small {
+      align-self: flex-end;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  p {
+    font-size: .9rem;
+
+    &:last-child {
+      border-bottom: 1px solid black;
+    }
+  }
+}
